@@ -5,3 +5,12 @@ few changes
 
 hello!
 hi
+
+
+Answer to the difference between add, commit, and, push:
+
+ Using git add, you are adding your newly updated file/s to the staging area which will
+be committed in the future. With git commit, you are locking in your modified files
+to your local repository. This means your changes cannot be accessed by the other peers yet.
+With git push, you are syncing your committed files to the online repository. The files you
+have pushed can now be accessed by your peers through git pull.
